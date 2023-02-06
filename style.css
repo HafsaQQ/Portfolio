@@ -1,0 +1,582 @@
+#body {
+    background-color: #18191d;
+}
+
+#hleftsection {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hrightsection {
+    color: #fff;
+}
+
+#circle {
+    background-color: #868a9b;
+    padding: 10px;
+
+}
+
+.hboth {
+    display: inline-block;
+    /* justify-content: space-between; */
+    width: 49%;
+    text-align: center;
+    padding: 20px;
+}
+
+#circle2 {
+    background-color: slategrey;
+    height: 700px;
+    border-radius: 50% 50% 50% 50%;
+    margin-left: 100px;
+    /* padding: 20px; */
+    position: absolute;
+    z-index: 1;
+    width: 700px;
+    opacity: 1;
+    ;
+}
+
+#img1 {
+    width: 700px;
+    height: 700px;
+    object-fit: fill;
+    opacity: 0.9;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 0;
+}
+
+#span2 {
+    position: absolute;
+    z-index: 2;
+}
+
+.sec1 {
+    padding: 30px;
+    margin: 20px;
+    display: inline-block;
+    width: 48%;
+}
+
+#section1-info {
+
+    position: absolute;
+    z-index: 3;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.name {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 2px 2px #949495;
+
+}
+
+#title {
+    color: #fff;
+    font-weight: 800;
+}
+
+#title-description {
+    color: white;
+    font-weight: 800;
+}
+
+#button {
+    color: #fff;
+    background-color: #18191d;
+    border: none;
+    position: absolute;
+    top: 600px;
+    left: 990px;
+}
+
+#section2 {
+    margin-top: 150vh;
+    padding: 30px;
+    margin-left: 50px;
+}
+
+#services-title {
+    color: #868a9b;
+    font-weight: 500;
+}
+
+.services {
+    display: inline-block;
+    width: 40%;
+    text-align: justify;
+}
+
+#services-heading {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0;
+    vertical-align: top;
+}
+
+#services-details {
+    color: #868a9b;
+    text-align: justify;
+    margin-left: 0;
+    width: 50%;
+}
+
+.all-cards {
+    background-color: #fff;
+    width: 31%;
+    height: 400px;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    vertical-align: top;
+}
+
+#logo1,
+#logo2,
+#logo3 {
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.cards-h3 {
+    margin-left: 40px;
+    text-align: left;
+    line-height: 30px;
+    ;
+}
+
+/* this is section3 */
+
+
+#section3 {
+    margin-top: 40vh;
+    padding: 30px;
+    margin-left: 90px;
+}
+
+#future-title {
+    color: #868a9b;
+    font-weight: 500;
+
+}
+
+#future-description {
+    color: #fff;
+    width: 45vw;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.future {
+    display: inline-block;
+    width: 45%;
+    color: #868a9b;
+    height: 100px;
+    text-align: left;
+    vertical-align: top;
+
+}
+
+.design-percent {
+    display: inline-block;
+
+    width: 39%;
+}
+
+#design {
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: left;
+    text-indent: -60px;
+}
+
+#percent {
+    text-align: right;
+    width: 35%;
+    text-indent: 257px;
+}
+
+#lower-div {
+    background-color: #fff;
+    height: 7px;
+    width: 100%;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+#upper-div {
+    background-color: grey;
+    height: 7px;
+    width: 90%;
+    margin-left: 0;
+    border-radius: 20px;
+
+}
+
+.branding-percent {
+    display: inline-block;
+
+    width: 39%;
+}
+
+#branding {
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: left;
+    text-indent: -60px;
+}
+
+#percent2 {
+    text-align: right;
+    width: 35%;
+    text-indent: 257px;
+}
+
+#lower2-div {
+    background-color: #fff;
+    height: 7px;
+    width: 100%;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+#upper2-div {
+    background-color: grey;
+    height: 7px;
+    width: 80%;
+    margin-left: 0;
+    border-radius: 20px;
+
+}
+
+.webdesign-percent {
+    display: inline-block;
+
+    width: 39%;
+}
+
+#webdesign {
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: left;
+    text-indent: -60px;
+}
+
+#percent3 {
+    text-align: right;
+    width: 35%;
+    text-indent: 257px;
+}
+
+#lower3-div {
+    background-color: #fff;
+    height: 7px;
+    width: 100%;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+#upper3-div {
+    background-color: gray;
+    height: 7px;
+    width: 95%;
+    margin-left: 0;
+    border-radius: 20px;
+
+}
+
+.socialmedia-percent {
+    display: inline-block;
+
+    width: 39%;
+}
+
+#socialmedia {
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: left;
+    text-indent: -60px;
+}
+
+#percent4 {
+    text-align: right;
+    width: 35%;
+    text-indent: 257px;
+}
+
+#lower4-div {
+    background-color: #fff;
+    height: 7px;
+    width: 100%;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+#upper4-div {
+    background-color: grey;
+    height: 7px;
+    width: 85%;
+    margin-left: 0;
+    border-radius: 20px;
+}
+
+.future a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+#section4 {
+    margin-top: 70vh;
+    padding: 30px;
+    margin-left: 90px;
+}
+
+#portfolio-title {
+    color: #868a9b;
+    font-weight: 500;
+
+}
+
+.portdesc {
+    display: inline-block;
+    width: 47%
+}
+
+#port-h1 {
+    color: #fff;
+    font-size: 90px;
+}
+
+#port-desc {
+    color: #868a9b;
+    font-size: 20px;
+    text-align: justify
+}
+
+.cardss {
+    display: inline-block;
+    width: 33%;
+    height: 400px;
+    background-color: grey;
+    vertical-align: top;
+}
+
+#img11 {
+    width: 80%;
+    height: 70%;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+#img22 {
+    width: 80%;
+    height: 70%;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+#img33 {
+    width: 80%;
+    height: 70%;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+#section5 {
+    margin-top: 30vh;
+    padding: 30px;
+    margin-left: 90px;
+}
+
+#news-title {
+    color: #868a9b;
+    font-weight: 500;
+
+}
+
+#newsh1 {
+    color: #fff;
+    font-size: 90px;
+}
+
+.newscontainer {
+    display: inline-block;
+    width: 40%;
+    height: 500px;
+}
+
+#news-description {
+    margin-left: 200px;
+    color: #fff;
+    vertical-align: super;
+    /* line-height: 70px; */
+}
+
+#newsh11 {
+    font-size: 40px;
+    /* margin-left: 20px; */
+    position: absolute;
+    top: 4080px;
+    left: 750px;
+    color: #fff;
+}
+
+#date-Para {
+    position: absolute;
+    top: 4140px;
+    left: 730px;
+    color: #fff;
+}
+
+
+#sectionPic {
+
+    background-image: url(https://previews.123rf.com/images/mdworschak/mdworschak1901/mdworschak190100003/117030984-aerial-trees-and-snow-in-a-winter-forest-nature-background-top-view-from-drone-.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.section6 {
+    display: inline-block;
+    width: 40%;
+    margin-top: 30vh;
+    padding: 30px;
+    margin-left: 90px;
+    vertical-align: top;
+}
+
+#section6h1 {
+    color: black;
+    opacity: 1;
+    font-weight: 900;
+}
+
+#client-saying {
+    background-color: #ffffff;
+    width: 500px;
+    height: 400px;
+    color: black;
+    position: absolute;
+}
+
+#client-saying p {
+    color: #868a9b;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+#client-saying img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.kakashi {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    line-height: 40px;
+}
+
+#powner {
+    font-size: small;
+
+}
+
+#comma {
+    font-size: 40px;
+    align-items: right;
+}
+
+
+#section7 {
+    width: 100%;
+    height: 190px;
+    background-color: #18191d;
+}
+
+.footer {
+    display: inline-block;
+    background-color: white;
+    width: 33%;
+    height: 200px;
+    vertical-align: top;
+}
+
+#git h3 {
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: #212228
+}
+
+#location h3 {
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: #212228;
+}
+
+#location element {
+    color: #868a9b;
+    margin-top: 30px;
+    margin-left: 120px
+}
+
+#git a {
+    text-decoration: none;
+    color: #868a9b;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.icons {
+    font-size: 60px;
+    padding: 55px;
+    background-color: #fff;
+}
+
+/* @keyframes border tranform{
+0%, 100% {
+    border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+}
+
+14% {
+    border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+}
+28% {
+    border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+}
+42% {
+    border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+}
+56% {
+    border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+}
+70% {
+    border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+}
+84% {
+    border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+}} */
